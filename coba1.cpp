@@ -16,4 +16,5 @@ int main()
  cout << 78 <<endl ;
  //menampilkan isi dari variabel
  cout << umur <<endl;
+ 
 }
