@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//
 int main(){
     bool cek = true;
     char jk;
