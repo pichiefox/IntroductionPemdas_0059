@@ -17,3 +17,17 @@ float LuasPersegi(float x, float y){
     return x*y;
 }
 
+int Jumlah(int a, int b, int c){
+    return a+b+c;
+}
+
+void Output(){
+    cout <<"Hasilnya = " << LuasPersegi(p,l) <<endl;
+}
+//Program Utama
+int main()
+{//start
+    Input();
+    Output();
+    cout << "Hasil Penjumlahan = " << Jumlah (5,6,9);
+}//selesai
