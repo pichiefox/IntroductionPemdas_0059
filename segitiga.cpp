@@ -7,8 +7,6 @@ using namespace std;
 //Implementasi Prosedur & Fungsi
 void Input(){
 
-cout << "bagidua"
-cin >> b;
 cout << "alas : ";
 cin >> a;
 cout << "tinggi : ";
@@ -16,7 +14,7 @@ cin >> t;
 }
 
 float LuasSegitiga(){
-    return b*a*t;
+    return a*t*1/2;
 }
 
 void Output(){
