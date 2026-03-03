@@ -12,3 +12,7 @@ cin >> a;
 cout << "tinggi : ";
 cin >> t;
 }
+
+float LuasSegitiga(){
+    return a*t*1/2;
+}
