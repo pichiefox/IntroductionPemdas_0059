@@ -17,3 +17,6 @@ float LuasSegitiga(){
     return a*t*1/2;
 }
 
+void Output(){
+    cout <<"Luas = " << LuasSegitiga();
+}
