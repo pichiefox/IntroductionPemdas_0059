@@ -20,3 +20,9 @@ float LuasSegitiga(){
 void Output(){
     cout <<"Luas = " << LuasSegitiga();
 }
+
+int main()
+{
+    Input();
+    Output();
+}
