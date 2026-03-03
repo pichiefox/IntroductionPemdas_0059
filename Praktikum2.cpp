@@ -13,3 +13,7 @@ cout << "Masukkan Lebar : ";
 cin >> l;
 }
 
+float LuasPersegi(float x, float y){
+    return x*y;
+}
+
