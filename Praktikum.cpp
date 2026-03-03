@@ -2,27 +2,28 @@
 #include <iostream>
 using namespace std;
 //Deklarasi Global
-    float a,t;
+    float p,l;
 
 //Implementasi Prosedur & Fungsi
 void Input(){
 
-cout << "alas : ";
-cin >> a;
-cout << "tinggi : ";
-cin >> t;
+cout << "Masukan Panjang : ";
+cin >> p;
+cout << "Masukkan Lebar : ";
+cin >> l;
 }
 
-float LuasSegitiga(){
-    return a*t*1/2;
+float LuasPersegi(){
+    return p*l;
 }
 
 void Output(){
     cout <<"Luas = " << LuasSegitiga();
 }
 
+//Program Utama
 int main()
-{
+{//start
     Input();
     Output();
-}
+}//selesai
