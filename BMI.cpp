@@ -11,3 +11,8 @@ void inputData()
     cout << "Masukkan Tinggi Badan (m): ";
     cin >>tinggi;
 }
+
+float hitungBMI (float a, float b)
+{
+    
+}
